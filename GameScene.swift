@@ -234,7 +234,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         shapeNode.zPosition = 1
         
         self.addChild(shapeNode)
-
+        var test = 0
         
     }
     func projectileDidCollideWithMonster(projectile:SKSpriteNode, monster:SKSpriteNode) {
